@@ -11,6 +11,7 @@ let Sonido3=document.getElementById("Sonido3");
 let Sonido4=document.getElementById("Sonido4");
 let Sonido5=document.getElementById("Sonido5");
 let Casino=document.getElementById("Casino");
+let Back=document.getElementById("Back");
 let productos=[
 {
     nombre:"Piedra mascota",
@@ -370,5 +371,15 @@ Casino.addEventListener("click", function(){
     },500); 
     setTimeout(function(){
         window.location.href = "https://ale20025.github.io/Casino/";
+    },1000); 
+});
+
+Back.addEventListener("click", function(){
+    setTimeout(function(){
+        Sonido1.play();
+    },500); 
+    setTimeout(function(){
+        
+        window.location.href = "https://ale20025.github.io/Menu/";
     },1000); 
 });
