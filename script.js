@@ -369,6 +369,6 @@ Casino.addEventListener("click", function(){
         Sonido5.play();
     },500); 
     setTimeout(function(){
-        window.location.href = "https://ale20025.github.io/Entrada/";
+        window.location.href = "https://ale20025.github.io/Casino/";
     },1000); 
 });
