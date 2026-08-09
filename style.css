@@ -1,0 +1,375 @@
+body{
+    background-color: #150B01;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#Exito{
+    width: 60%;
+    line-height: 35%;
+    border-radius: 30px;
+    position: absolute;
+    background-color: #ffa600;
+    text-align: center;
+    font-size: 250%;
+    top: 3%;
+    display: none;
+}
+
+#NoExito{
+    width: 60%;
+    line-height: 35%;
+    border-radius: 30px;
+    position: absolute;
+    background-color:#ff5000;
+    text-align: center;
+    font-size: 250%;
+    top: 3%;
+    display: none;
+    transform: translateY(3%);
+    transition: 0.5s;
+}
+
+#Mensaje{
+    background-color: #150B01;
+    border: 5px solid #ff5000;
+    width: 90%;
+    height: 40%;
+    border-radius: 20px;
+    z-index: 5;
+    position: absolute;
+    top: 66%;
+    pointer-events: none;
+    opacity: 0;
+    transition: 1.5s, opacity 1.5s;
+}
+
+h5{
+    margin: 0;
+    color: #ffa600;
+}
+
+#Puntos{
+    border-radius: 30px;
+    background-color: #412203;
+    width: 40%;
+    line-height:125%;
+    margin-left: 33%;
+    text-align: center;
+    font-size: 300%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+#Imagen{
+    margin-top: 30px;
+    margin-right: 79px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border: 5px solid #ff5000;
+    width: 300px;
+    height: 280px;
+}
+
+#Datos{
+    display: flex;
+    height: 45%;
+    width: 100%;
+    margin-bottom: -3%;
+}
+
+#NombrePrecio{
+    width: 50%;
+    height: 100%;
+}
+
+.Texto{
+    margin-left: 20px;
+    font-size: 300%;
+    color: #ffa600;
+}
+
+#Botones{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    gap: 20%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-top: 2%;
+}
+
+#Cancelar{
+    background-color:#150B01;
+    width: 32%;
+    height: 125.5%;
+    font-size: 260%;
+    margin-left: 8%;
+    border: 0;
+    border-radius:10px;
+    border: 5px solid #ffa600;
+    color: #ffa600;
+}
+
+#Cancelar:active{
+    background-color: #ffa600;
+    color: #150B01;
+}
+
+#Comprar{
+    background-color:#ffa600;
+    width: 32%;
+    height: 125.5%;
+    font-size: 260%;
+    border: 0;
+    border-radius:5px;
+    color: #150B01;
+}
+
+#Comprar:active{
+    background-color: #150B01;
+    border: 5px solid #ffa600;
+    color: #ffa600;
+}
+
+#Dibujo{
+    background-image: url(imagenes/dibujo.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 20%;
+}
+
+#Aviso{
+    width: 98.15vw;
+    height: 17%;
+    background-color: black;
+    border: 10px solid white;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 115%;
+    color: white;
+    text-align: center;
+    line-height: 225%;
+}
+
+#Estante{
+    background-color: brown;
+    width: 100%;
+    height: 70%;
+    flex-direction: column;
+}
+
+.Filas{
+    align-items: flex-end;
+    justify-content: center;
+    border: none;
+    background-image: url(imagenes/fila.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    display: flex;
+    height: 20%;
+    width: 100%;
+    margin: 0;
+}
+
+.Boton{
+    background: none;
+    width: 27.8%;
+    height: 89.5%;
+    border: 0;
+    cursor: pointer;
+    
+}
+
+.Boton:hover{
+    transform:translateY(-8px) scale(1.03);
+    transition: 0.2s;
+}
+
+.Boton:active{
+    filter: brightness(50%);
+}
+
+#Producto1{
+    background-image: url(imagenes/roca.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#Producto2{
+    background-image: url(imagenes/pastel.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#Producto3{
+    background-image: url(imagenes/pastelentero.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#Producto4{
+    background-image: url(imagenes/regalomisterioso.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#Producto5{
+    background-image: url(imagenes/paleta.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#Producto6{
+    background-image: url(imagenes/alepuntos.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#Producto7{
+    background-image: url(imagenes/pez.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#Producto8{
+    background-image: url(imagenes/autografo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#Producto9{
+    background-image: url(imagenes/huesos.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#Producto10{
+    background-image: url(imagenes/alepunto.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#Producto11{
+    background-image: url(imagenes/flor.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#Producto12{
+    background-image: url(imagenes/retrato.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#Producto13{
+    background-image: url(imagenes/taza.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#Producto14{
+    background-image: url(imagenes/vacaciones.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#Producto15{
+    background-image: url(imagenes/trofeo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#Sonido {
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    border: none;
+    background-image: url(imagenes/audion.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+#Clave{
+    z-index: 1002;
+    width: 14%;
+    height: 5%;
+    opacity: 0.1;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 8%;
+    left: 15%;
+}
+
+#Numero{
+    z-index: 1002;
+    background-image: url(imagenes/clave.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 88%;
+    width: 100%;
+    position: absolute;
+    bottom: -175px;
+    display: none;
+}
+
+#Premio{
+    background-image: url(imagenes/trofeo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 55.6%;
+    height: 25%;
+    pointer-events: none;
+    opacity: 0;
+    top: 1%;
+    transition: 30s, opacity 30s;
+    position: absolute;
+    z-index: 20;
+}
+
+#Casino{
+    position:fixed;
+    bottom: 30px;
+    left: 30px;
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    background-image: url(imagenes/casino.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1000;
+    cursor: pointer;
+}
