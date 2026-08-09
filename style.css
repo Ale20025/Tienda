@@ -7,6 +7,22 @@ body{
     display: flex;
 }
 
+#Back {
+    position: fixed;
+    top: 1%;
+    left: 2%;
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    border: none;
+    background-image: url(imagenes/atras.jpeg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1000;
+    cursor: pointer;
+}
+
 #Exito{
     width: 60%;
     line-height: 35%;
