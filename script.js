@@ -17,7 +17,7 @@ let productos=[
     nombre:"Piedra mascota",
     precio:120,
     descripcion:"Es la mejor mascota que podrias tener... enserio",
-    imagen:"imagenes/roca.png"
+    imagen:"imagenes/piedra.png"
 },
 {
     nombre:"Rebanada de Pastel",
